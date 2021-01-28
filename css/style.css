@@ -114,4 +114,15 @@ footer ul li a img:hover{
     footer div{
         font-size: 20px;
     }
+    footer ul li{
+        display: inline-block;
+        padding: 0 0;
+    }
+    #cuisine{
+        background-image:url('../image/cuisine2.jpg');
+    }
+    #culture{
+        background-image:url('../image/culture2.jpg');
+    }
+
   }
