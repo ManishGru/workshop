@@ -101,3 +101,17 @@ footer ul li a img:hover{
     filter: drop-shadow(10px 10px 4px rgb(0, 0, 0));
     margin:-3px -3px;
 }
+@media only screen and (max-width: 800px) {
+    .headtxt{
+        font-size: 30px;
+    }
+    .section-description{
+        font-size: 10px;
+    }
+    .section-title{
+        font-size: 25px;
+    }
+    footer div{
+        font-size: 20px;
+    }
+  }
