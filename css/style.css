@@ -2,7 +2,9 @@ body{
 padding: 0;
 margin:0 0;
 font-family: Garamond, serif;
-background:black;
+}
+#visit{
+    background-image:url('../image/visit.jpg');
 }
 #nature{
     background-image:url('../image/nature.jpg');
@@ -69,4 +71,33 @@ background:black;
 }
 .section-description{
     font-size: 20px;
+}
+#description ul{
+    text-align: justify;
+}
+footer{
+    background:rgb(85, 64, 49);
+    color: whitesmoke;
+    padding:5px;
+    display: inline-flex;
+    align-items: center;
+    width:99%;
+}
+footer div{
+    font-size: 40px;
+    margin:0;
+    height: inherit;
+    margin: 0px;
+}
+footer ul{
+    display:inline-block;
+    list-style-type: none;
+}
+footer ul li{
+    display: inline-block;
+    padding: 0 50px;
+}
+footer ul li a img:hover{
+    filter: drop-shadow(10px 10px 4px rgb(0, 0, 0));
+    margin:-3px -3px;
 }
