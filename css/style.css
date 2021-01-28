@@ -1,6 +1,17 @@
 body{
 padding: 0;
 margin:0 0;
+font-family: Garamond, serif;
+background:black;
+}
+#nature{
+    background-image:url('../image/nature.jpg');
+}
+#cuisine{
+    background-image:url('../image/cuisine.jpg');
+}
+#culture{
+    background-image:url('../image/culture.jpg');
 }
 #second{
     background-image:url('../image/2.jpg');
@@ -30,24 +41,32 @@ margin:0 0;
     align-items: center;
 
 }
-#headtxt{
+.section-title{
+    font-size: 50px;
+}
+.headtxt{
+    text-shadow:7px 7px 10px black;
     text-align: center;
     font-size: 75px;
+    font-weight: bold;
     color:whitesmoke;
     margin:0 auto;
     padding:0;
-
 }
 .flex div{
     width:inherit;
     margin:0 auto;
-    background:rgb(63, 63, 63);
+    background:rgba(63, 63, 63, 0.582);
     padding: 10px;
     border-radius:30px;
+    box-shadow:10px 10px 5px rgba(0, 0, 0, 0.164);
 }
 #description{
     text-align: center;
     padding:20px;
     color:whitesmoke;
-    background:gray;
+    background:rgb(80, 80, 80);
+}
+.section-description{
+    font-size: 20px;
 }
